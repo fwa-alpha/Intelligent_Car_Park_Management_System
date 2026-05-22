@@ -14,9 +14,8 @@ if not os.environ.get("DISPLAY"):
 
 
 
-auth_cookie = "no39/unix:0 MIT-MAGIC-COOKIE-1 fab28472a152258e19d8b2e2ca1ed074。"
 
-os.system(f"xauth add {auth_cookie}")
+
 
 import tkinter as tk
 from tkinter import ttk, messagebox
